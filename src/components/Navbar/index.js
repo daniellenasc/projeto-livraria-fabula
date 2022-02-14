@@ -12,22 +12,15 @@ import MenuItem from '@mui/material/MenuItem';
 import SearchIcon from '@mui/icons-material/Search';
 import { styled, alpha } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
-import { Link } from "react-router-dom";
-
-const pages = ['Livros', 'Cadastro', 'Contato'];
-
+const pages = ['livros', 'cadastro', 'contato'];
 export function Navbar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);  
-
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
   };
-  
   const handleCloseNavMenu = () => {
     setAnchorElNav(null);
   };
-  
-
   const Search = styled('div')(({ theme }) => ({
     position: 'relative',
     borderRadius: theme.shape.borderRadius,
@@ -42,7 +35,6 @@ export function Navbar() {
       width: 'auto',
     },
   }));
-  
   const SearchIconWrapper = styled('div')(({ theme }) => ({
     padding: theme.spacing(0, 2),
     height: '100%',
@@ -52,7 +44,6 @@ export function Navbar() {
     alignItems: 'center',
     justifyContent: 'center',
   }));
-  
   const StyledInputBase = styled(InputBase)(({ theme }) => ({
     color: 'inherit',
     '& .MuiInputBase-input': {
@@ -69,7 +60,6 @@ export function Navbar() {
       },
     },
   }));
-
   return (
     <AppBar position="static">
       <Container maxWidth="xl">
@@ -80,9 +70,8 @@ export function Navbar() {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            <Link to="/" > Livraria Fábula </Link>
+            Livraria Fábula
           </Typography>
-
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
@@ -114,7 +103,7 @@ export function Navbar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center"><Link to={`/${page}`}>{page}</Link></Typography>
+                  <Typography textAlign="center"> {page} </Typography>
                 </MenuItem>
               ))}
             </Menu>
@@ -138,7 +127,6 @@ export function Navbar() {
               </Button>
             ))}
           </Box>
-
           <Search>
             <SearchIconWrapper>
               <SearchIcon />
@@ -148,8 +136,6 @@ export function Navbar() {
               inputProps={{ 'aria-label': 'search' }}
             />
           </Search>
-
-         
         </Toolbar>
       </Container>
     </AppBar>

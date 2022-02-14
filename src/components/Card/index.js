@@ -17,20 +17,16 @@ export function ImgMediaCard(props) {
         component="img"
         alt="book-cover"
         item xs={2}
-        //image="https://images-na.ssl-images-amazon.com/images/I/41UBaYAAeNS.jpg"
         image={props.image}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-        {/* Dubliners */}
          {props.title} 
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        {/* James Joyce */}
          {props.author}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        {/* 12.99 */}
           {props.price}
         </Typography>
         <Typography variant="body2" color="text.secondary">
