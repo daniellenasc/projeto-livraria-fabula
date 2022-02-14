@@ -6,7 +6,10 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 
-export function ImgMediaCard() {
+
+
+export function ImgMediaCard(props) {
+
   return (
     <Card sx={{ maxWidth: 300 }}>
 
@@ -14,25 +17,25 @@ export function ImgMediaCard() {
         component="img"
         alt="book-cover"
         item xs={2}
-        image="https://images-na.ssl-images-amazon.com/images/I/41UBaYAAeNS.jpg"
-        //image={props.image}
+        //image="https://images-na.ssl-images-amazon.com/images/I/41UBaYAAeNS.jpg"
+        image={props.image}
       />
       <CardContent>
         <Typography gutterBottom variant="h5" component="div">
-        Dubliners
-          {/* {props.title} */}
+        {/* Dubliners */}
+         {props.title} 
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        James Joyce
-          {/* {props.author} */}
+        {/* James Joyce */}
+         {props.author}
         </Typography>
         <Typography variant="body2" color="text.secondary">
-        12.99
-          {/* {props.price} */}
+        {/* 12.99 */}
+          {props.price}
         </Typography>
         <Typography variant="body2" color="text.secondary">
         Detalhes
-          {/* {props.price} */}
+           {props.description}
         </Typography>
       </CardContent>
       <CardActions>
@@ -44,3 +47,4 @@ export function ImgMediaCard() {
     </Card>
   );
 }
+
