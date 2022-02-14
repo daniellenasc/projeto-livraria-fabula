@@ -1,13 +1,22 @@
-import logo from '../../assets/logo-livrariaFabula.png'
+import logo from '../../assets/Design sem nome.png'
+import './styles.css'
+import {Carrossel} from '../../components/Carrossel'
+import { Footer } from "../../components/Footer"
 
 
 export function Home(){
 
     return (
-        <div className="">
-
-        <img src={logo} alt="logo-"/>
+        <div>
+            <div className="home">
+            <img  src={logo} alt="logo-" className="hero"/>
+            <Carrossel/>
+            <Footer />
+            </div>
+        
 
         </div>
     )
 }
+
+
