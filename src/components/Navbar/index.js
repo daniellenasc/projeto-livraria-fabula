@@ -12,6 +12,7 @@ import MenuItem from '@mui/material/MenuItem';
 import SearchIcon from '@mui/icons-material/Search';
 import { styled, alpha } from '@mui/material/styles';
 import InputBase from '@mui/material/InputBase';
+import { Link } from "react-router-dom";
 
 const pages = ['Livros', 'Cadastro', 'Contato'];
 
@@ -79,7 +80,7 @@ export function Navbar() {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            Livraria Fábula
+            <Link to="/" > Livraria Fábula </Link>
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -113,7 +114,7 @@ export function Navbar() {
             >
               {pages.map((page) => (
                 <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page}</Typography>
+                  <Typography textAlign="center"><Link to={`/${page}`}>{page}</Link></Typography>
                 </MenuItem>
               ))}
             </Menu>
