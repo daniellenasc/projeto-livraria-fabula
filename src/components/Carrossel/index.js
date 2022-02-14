@@ -36,17 +36,17 @@ export function Carrossel(){
         fontWeight: 'bold',
       }
       return (
-        <div className="App">
-          <div style={{ textAlign: "center" }}>
-            <h2>Venha se perder no mundo da leitura</h2>
-            <p>Easy to use, responsive and customizable carousel component for React Projects.</p>
+        <div>
+          <div style={{ textAlign: "center", marginTop: "150px" }}>
+            <h1>Seja bem-vindo a Livraria Fábula!!</h1>
+            <p>Venha se perder no mundo da leitura com os clássicos da literatura!!</p>
             <div style={{
               padding: "0 20px"
             }}>
               <Carousel
                 data={data}
                 time={2000}
-                width="850px"
+                width="900px"
                 height="600px"
                 captionStyle={captionStyle}
                 radius="10px"

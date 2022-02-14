@@ -1,6 +1,7 @@
 import logo from '../../assets/Design sem nome.png'
-import './styles.module.css'
+import './styles.css'
 import {Carrossel} from '../../components/Carrossel'
+import { Footer } from "../../components/Footer"
 
 
 export function Home(){
@@ -8,9 +9,9 @@ export function Home(){
     return (
         <div>
             <div className="home">
-            <img className="imageHero" src={logo} alt="logo-"/>
+            <img  src={logo} alt="logo-" className="hero"/>
             <Carrossel/>
-            
+            <Footer />
             </div>
         
 
