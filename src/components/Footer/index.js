@@ -43,7 +43,7 @@ export function Footer() {
       >
         <Container maxWidth="sm">
           <Typography variant="body1">
-            Ler muda .
+            Ler muda vidas.
           </Typography>
           <Copyright />
         </Container>
