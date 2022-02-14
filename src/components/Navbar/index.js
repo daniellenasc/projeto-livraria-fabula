@@ -6,16 +6,16 @@ export function Navbar() {
     <nav>
       
       <input type="checkbox" id="check_nav"></input>
-		  <label for="check_nav" class="checkbtn_nav">
-			  <i class="fas fa-bars"></i>
+		  <label htmlFor="check_nav" className="checkbtn_nav">
+			  <i className="fas fa-bars"></i>
 		  </label>
-		  <label class="logo">Livraria Fábula</label>
+		  <label className="logo">Livraria Fábula</label>
 		  <ul>			
 
-        <li><Link to="/" className="linkNav"> Home </Link></li>
-        <li><Link to="/livros" className="linkNav"> Livros </Link></li>
-        <li><Link to="/cadastro" className="linkNav"> Cadastro </Link></li>
-        <li><Link to="/contato" className="linkNav"> Contato </Link></li>
+        <li><Link to="/" style={{ textDecoration: "none"}} > Home </Link></li>
+        <li><Link to="/livros" style={{ textDecoration: "none"}} > Livros </Link></li>
+        <li><Link to="/cadastro" style={{ textDecoration: "none"}} > Cadastro </Link></li>
+        <li><Link to="/contato" style={{ textDecoration: "none"}} > Contato </Link></li>
 
 		  </ul>
     </nav>
