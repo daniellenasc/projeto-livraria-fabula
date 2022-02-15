@@ -21,7 +21,7 @@ export function Footer() {
       sx={{
         display: 'flex',
         flexDirection: 'column',
-        minHeight: '100vh',
+        minHeight: '50vh',
       }}
     >
       <CssBaseline />
@@ -29,8 +29,8 @@ export function Footer() {
       <Box
         component="footer"
         sx={{
-          py: 3,
-          px: 2,
+          py: 1,
+          px: 1,
           mt: 'auto',
           backgroundColor: (theme) =>
             theme.palette.mode === 'light'
@@ -40,7 +40,7 @@ export function Footer() {
       >
         <Container maxWidth="sm">
           <Typography variant="body1">
-            Ler muda vidas.
+            Livraria Fábula - Ler muda vidas.
           </Typography>
           <Copyright />
         </Container>

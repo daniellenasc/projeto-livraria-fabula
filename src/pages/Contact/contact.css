@@ -1,0 +1,12 @@
+.card_contact {    
+    background:  hsl(202, 98%, 37%, 0.5);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+}
