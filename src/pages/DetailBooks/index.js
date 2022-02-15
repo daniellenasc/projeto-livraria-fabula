@@ -2,7 +2,8 @@
  import axios from 'axios'; 
  import { useParams } from 'react-router-dom';
  import Typography from '@mui/material/Typography';
- import { Box } from '@mui/system';
+ import './Detail.css'
+
 
 export function DetailBooks(){
 
@@ -32,19 +33,20 @@ export function DetailBooks(){
                       <img 
                       src={bookDetail.image}
                       alt={bookDetail.title}
+                      className='detailImg'
                       />
         
                       <div className=''>
         
                            <h1>{bookDetail.title}</h1>
         
-                           <h3>{bookDetail.author}</h3>
+                           <p>Autor: {bookDetail.author}</p>
         
                          
-                            <span>{bookDetail.price}</span>
+                            <span>Preço: {bookDetail.price}</span>
                            
         
-                           <article>{bookDetail.description}</article>
+                           <article>Descrição: {bookDetail.description}</article>
 
                 
         
