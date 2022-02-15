@@ -1,8 +1,9 @@
  import {useState, useEffect} from 'react';
  import axios from 'axios'; 
  import { useParams } from 'react-router-dom';
- import Typography from '@mui/material/Typography';
+ import Button from '@mui/material/Button';
  import './Detail.css'
+ import {Link} from 'react-router-dom'
 
 
 export function DetailBooks(){
@@ -36,7 +37,7 @@ export function DetailBooks(){
                       className='detailImg'
                       />
         
-                      <div className=''>
+                      <div className='detailBook'>
         
                            <h1>{bookDetail.title}</h1>
         
@@ -48,9 +49,12 @@ export function DetailBooks(){
         
                            <article>Descrição: {bookDetail.description}</article>
 
-                
+
+                           <Button variant="outlined" ><Link to={`/livros`}>Voltar</Link></Button>
         
                       </div>
+
+                            
 
                         
 

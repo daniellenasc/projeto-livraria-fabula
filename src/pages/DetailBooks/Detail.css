@@ -2,11 +2,37 @@
     margin: 120px;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    
 }
 
 
 .detailImg{
     width:30%;
-    height:30%
+    height:30%;
+}
+
+
+.detailBook{
+    margin-left: 10px;
+}
+
+h1{
+    margin: 10px;
+}
+
+p{
+    margin: 6px;
+    font-size: 20px;
+
+}
+
+span{
+    margin: 6px;
+    font-size: 20px
+}
+
+article{
+    margin: 10px;
+    font-size: 20px;
 }
