@@ -1,0 +1,12 @@
+.detail{
+    margin: 120px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+
+.detailImg{
+    width:30%;
+    height:30%
+}

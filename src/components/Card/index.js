@@ -6,7 +6,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import AddIcon from '@mui/icons-material/Add';
-import './styles.css'
+import './Card.css'
 import {Link} from 'react-router-dom'
 import axios from 'axios'
 
@@ -33,7 +33,8 @@ export function ImgMediaCard(props) {
                 className="image_card"
                 component="img"
                 alt="book-cover"
-                item xs={2}
+                item="true"
+                xs={2}
                 image={props.image}
                 />
                 <CardContent>
