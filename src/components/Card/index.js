@@ -5,11 +5,25 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import './Card.css'
-
+import AddIcon from '@mui/icons-material/Add';
+import './styles.css'
+import {Link} from 'react-router-dom'
+import axios from 'axios'
 
 
 export function ImgMediaCard(props) {
+
+
+  async function handleDelete() {
+    try {
+      await axios.delete(
+        `https://ironrest.herokuapp.com/livrariaFabula/${props.id}`
+      );
+      props.setRerender(true);
+    } catch (error) {
+      console.error(error);
+    }
+  }
 
   return (
     <div className="card">
@@ -33,15 +47,14 @@ export function ImgMediaCard(props) {
                     {props.price}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-                Detalhes
-                    {props.description}
+               <Link to={`/detalhes/${props.id}`}> <AddIcon /> Detalhes</Link>
                 </Typography>
                 </CardContent>
                 <CardActions>
-                {/* Aqui vamos ter 3 links, dois buttons e um link para detalhes de livros */}
-                <Button size="small">Detalhes</Button>
-                <Button size="small">Share</Button>
-                <Button size="small">Learn More</Button>
+                <Link to={`/edit-cadastro/${props.id}`}>
+                <Button size="small">Edit</Button>
+                </Link>
+                <Button size="small" type="button" onClick={handleDelete}>Delete</Button>
                 </CardActions>
             </Card>
     </div>  

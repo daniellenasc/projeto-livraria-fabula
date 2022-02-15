@@ -4,5 +4,6 @@
     flex-wrap: wrap;
     align-content: center;
     justify-content: space-around;
-    align-items: center;
+    margin: 45px;
+    margin-right: 0px;
 }
