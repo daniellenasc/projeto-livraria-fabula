@@ -71,25 +71,25 @@ export function EditBook(){
         <div className="form-control">
         <form onSubmit={handleSubmit}>
               <FormControl >
-                   <FormHelperText id="my-helper-text">Preencha o nome completo do livro</FormHelperText>
+                   <FormHelperText id="my-helper-text" style={{marginBottom: "20px"}}>Preencha o nome completo do livro</FormHelperText>
                     <TextField
                         id="title"
                         name="title"
-                        label="Book title"
+                        label="Titulo"
                         type="text"
                         value={form.title}
                         onChange={handleChange}
                         />
-                    <FormHelperText id="my-helper-text">Preencha o nome do autor</FormHelperText>
+                    <FormHelperText id="my-helper-text" style={{marginBottom: "20px"}}>Preencha o nome do autor</FormHelperText>
                     <TextField
                         id="author-input"
                         name="author"
-                        label="Book Author"
+                        label="Autor"
                         type="text"
                         value={form.author}
                         onChange={handleChange}
                         />
-                    <FormHelperText id="my-helper-text">Preencha o preço do livro com ponto</FormHelperText>
+                    <FormHelperText id="my-helper-text" style={{marginBottom: "20px"}}>Preencha o preço do livro com ponto</FormHelperText>
                     <TextField
                         id="price-input"
                         name="price"
@@ -97,20 +97,20 @@ export function EditBook(){
                         value={form.price}
                       onChange={handleChange}
                         />
-                    <FormHelperText id="my-helper-text">Preencha a descrição do livro</FormHelperText>
+                    <FormHelperText id="my-helper-text" style={{marginBottom: "20px"}}>Preencha a descrição do livro</FormHelperText>
                     <TextField
                         id="description-input"
                         name="description"
-                        label="Book description"
+                        label="Descrição"
                         type="text"
                         value={form.description}
                         onChange={handleChange}
                         />
-                    <FormHelperText id="my-helper-text">Insira a capa do livro</FormHelperText>
+                    <FormHelperText id="my-helper-text" style={{marginBottom: "20px"}}>Insira a capa do livro</FormHelperText>
                     <TextField
                         id="img-input"
                         name="image"
-                        label="Book Cover"
+                        label="Capa do Livro"
                         value={form.image}
                         onChange={handleChange}
                         />

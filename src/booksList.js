@@ -194,5 +194,58 @@ const books = [
         "author": "Lucy Maud Montgomery",
         "price": 11.69,
         "description": "Anne Shirley is an eleven-year-old orphan who has hung on determinedly to an optimistic spirit and a wildly creative imagination through her early deprivations. She erupts into the lives of aging brother and sister Matthew and Marilla Cuthbert, a girl instead of the boy they had sent for. Thus begins a story of transformation for all three; indeed the whole rural community of Avonlea comes under Anne's influence in some way. We see her grow from a girl to a young woman of sixteen, making her mistakes, and not always learning from them. Intelligent, hot-headed as her own red hair, unwilling to take a moral truth as read until she works it out for herself, she must also face grief and loss and learn the true meaning of love. Part Tom Sawyer, part Jane Eyre, by the end of Anne of Green Gables, Anne has become the heroine of her own story."
-    }    
+    },
+
+
+    /* Livros para adicionar, editar e deletar */
+    {
+        "image": "https://darkside.vteximg.com.br/arquivos/ids/168514-491-491/234-dance-of-thieves-0.jpg?v=636861988581730000",
+        "title": "Dance of Thieves",
+        "author": "Mary E. Person",
+        "price": 15.00,
+        "description": "Dance of Thieves, o primeiro volume de Dinastia de Ladrões, a nova série ambientada no mesmo universo das Crônicas, alguns anos depois de seu desfecho. Quando o patriarca do império Ballenger morre, seu filho, Jase, torna-se seu novo líder. Até mesmo os reinos mais próximos se curvam à força dessa família fora da lei, que sempre governou por suas próprias regras."
+    },
+	{
+        "image": "https://darkside.vteximg.com.br/arquivos/ids/174298-491-491/270-a-pequena-sereia-0.png?v=637572001481570000",
+        "title": "A Pequena Sereia e o Reino das Ilusões",
+        "author": "Louise O'Neil",
+        "price": 14.00,
+        "description": "Esqueça as histórias sobre sereias que você conhece. Esta é uma história diferente — e necessária. E tudo começa no fundo do mar. Com uma garota chamada Gaia, que sonha em ser livre de seu pai controlador, fugir de um casamento arranjado e descobrir o que realmente aconteceu à sua mãe desaparecida. Em seu aniversário de quinze anos, quando finalmente sobe à superfície para conhecer o mundo de cima, Gaia avista um rapaz em um naufrágio e se convence de que precisa conhecê-lo. Mas do que ela precisa abrir mão para transformar seu sonho em realidade? E será que vale a pena?"
+    },
+    {
+        "image": "https://darkside.vteximg.com.br/arquivos/ids/174202-491-491/o-jardim-secreto-0.png?v=637570494607830000",
+        "title": "O Jardim Secreto",
+        "author": "Frances Hodgson Burnett",
+        "price": 14.00,
+        "description": "O Jardim Secreto conta a história de Mary Lennox, uma menina solitária que perde os pais em um surto de cólera na Índia e, como consequência, é enviada para uma mansão em Yorkshire para morar com seu tio misterioso. Cheia de incertezas diante da nova realidade cinzenta da Inglaterra, ela encontra consolo na natureza ao seu redor. E, quando descobre a existência de um jardim secreto nos terrenos da mansão e encontra a chave perdida, um mundo mágico se descortina diante de seus olhos. A menina e a natureza desabrocham juntas, em um percurso repleto de companheiros improváveis e amigos para vida inteira."
+    },
+    {
+        "image": "https://darkside.vteximg.com.br/arquivos/ids/167528-491-491/53-em-algum-lugar-nas-estrelas-0.jpg?v=636802513583400000",
+        "title": "Em Algum Lugar nas Estrelas",
+        "author": "Clare Vanderpool",
+        "price": 13.80,
+        "description": "Um romance intenso sobre a difícil arte de crescer em um mundo que nem sempre parece satisfeito com a nossa presença.Pelo menos é desse jeito que as coisas têm acontecido para Jack Baker. A Segunda Guerra Mundial estava no fim, mas ele não tinha motivos para comemorar. Sua mãe morreu e seu pai... bem, seu pai nunca demonstrou se preocupar muito com o filho. Jack é então levado para um internato no Maine (o mesmo estado onde vivem Stephen King e boa parte de seus personagens). O colégio militar, o oceano que ele nunca tinha visto, a indiferença dos outros alunos: tudo aquilo faz Jack se sentir pequeno. Até ele conhecer o enigmático Early Auden."
+    },
+    {
+        "image": "https://images-na.ssl-images-amazon.com/images/I/518dVCGFuhL._SX323_BO1,204,203,200_.jpg",
+        "title": "The Catcher in the Rye",
+        "author": "J. D. Salinger",
+        "price": 12.78,
+        "description": "The hero-narrator of The Catcher in the Rye is an ancient child of sixteen, a native New Yorker named Holden Caulfield.Through circumstances that tend to preclude adult, secondhand description, he leaves his prep school in Pennsylvania and goes underground in New York City for three days. The boy himself is at once too simple and too complex for us to make any final comment about him or his story. Perhaps the safest thing we can say about Holden is that he was born in the world not just strongly attracted to beauty but, almost, hopelessly impaled on it."
+    },
+    {
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41aM4xOZxaL._SX277_BO1,204,203,200_.jpg",
+        "title": "1984",
+        "author": "George Orwell",
+        "price": 12.00,
+        "description": "Winston Smith toes the Party line, rewriting history to satisfy the demands of the Ministry of Truth. With each lie he writes, Winston grows to hate the Party that seeks power for its own sake and persecutes those who dare to commit thoughtcrimes. But as he starts to think for himself, Winston can’t escape the fact that Big Brother is always watching..."
+    },
+    {
+        "image": "https://images-na.ssl-images-amazon.com/images/I/41UvSGbIvPL._SX331_BO1,204,203,200_.jpg",
+        "title": "Fahrenheit 451",
+        "author": "Ray Bradbury",
+        "price": 13.00,
+        "description": "Guy Montag is a fireman. His job is to destroy the most illegal of commodities, the printed book, along with the houses in which they are hidden. Montag never questions the destruction and ruin his actions produce, returning each day to his bland life and wife, Mildred, who spends all day with her television “family.” But when he meets an eccentric young neighbor, Clarisse, who introduces him to a past where people didn’t live in fear and to a present where one sees the world through the ideas in books instead of the mindless chatter of television, Montag begins to question everything he has ever known."
+    }
+
 ]

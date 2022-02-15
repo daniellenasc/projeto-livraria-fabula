@@ -1,7 +1,3 @@
-/* Aqui vamos usar o grid para fazer o map e inserir os cards 
-
-*/
-
 import {ImgMediaCard} from '../../components/Card';
 import './styles.css'
 import { useState, useEffect} from 'react';
