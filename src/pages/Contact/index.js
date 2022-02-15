@@ -25,9 +25,9 @@ export function Contact() {
             Camila Beisiegel
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            E-mail: danielle_nascimento_@hotmail.com
+          <i class="fa-solid fa-envelope"></i> danielle_nascimento_@hotmail.com
             <CardActions>                
-              <Button size="medium"><a href="https://github.com/CPBeisiegel"  style={{ textDecoration: "none"}}> GitHub </a></Button>
+              <Button size="medium"><a href="https://github.com/CPBeisiegel"  style={{ textDecoration: "none", fontSize: "30px", color: "black" }}> <i className="fa-brands fa-github"></i> </a></Button>
             </CardActions>            
           </Typography>
         </CardContent>
@@ -47,9 +47,9 @@ export function Contact() {
             Danielle Nascimento
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            E-mail: danielle_nascimento_@hotmail.com            
+          <i class="fa-solid fa-envelope"></i> danielle_nascimento_@hotmail.com            
             <CardActions>                
-              <Button size="medium"><a href="https://github.com/daniellenasc"  style={{ textDecoration: "none"}}> GitHub </a></Button>
+              <Button size="medium"><a href="https://github.com/daniellenasc"  style={{ textDecoration: "none", fontSize: "30px", color: "black" }}> <i className="fa-brands fa-github"></i> </a></Button>
             </CardActions>
           </Typography>
         </CardContent>

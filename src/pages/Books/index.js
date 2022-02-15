@@ -3,7 +3,7 @@
 */
 
 import {ImgMediaCard} from '../../components/Card';
-import './styles.css'
+import './Books.css'
 import { useState, useEffect} from 'react';
 import axios from 'axios'
 
