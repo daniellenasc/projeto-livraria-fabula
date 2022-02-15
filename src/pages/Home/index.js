@@ -1,5 +1,5 @@
 import logo from '../../assets/Design sem nome.png'
-import './styles.css'
+import './Home.css'
 import {Carrossel} from '../../components/Carrossel'
 import { Footer } from "../../components/Footer"
 
