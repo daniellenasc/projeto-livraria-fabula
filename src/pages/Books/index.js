@@ -5,8 +5,8 @@
 import {ImgMediaCard} from '../../components/Card';
 import './styles.css'
 import { useState, useEffect} from 'react';
+import {useParams} from 'react-router-dom'
 import axios from 'axios'
-
 
 
 
@@ -15,14 +15,15 @@ export function Books() {
   
     
     const [book, setBook] = useState([])
-
+    const params = useParams()
+    const [render, setRender] = useState(true);
 
     useEffect(() => {
         async function fetchBooks(){
              try {
                
                const result = await axios.get('https://ironrest.herokuapp.com/livrariaFabula')
-                console.log(result.data)
+               
                setBook([...result.data]);
              } catch (error){
                  console.log(error)
@@ -30,18 +31,22 @@ export function Books() {
          }
          
          fetchBooks();
-      
-     }, [])
+         setRender(false)
+     }, [render])
 
 
 
     return (
         <div className="cards">
         
-        {book.map((currentBook) => {
+        {book.filter((currentBook) => {
+          return currentBook.id === params.id;
+        })
+        .map((currentBook) => {
                             return <ImgMediaCard 
                             key={currentBook._id}
-                            id={currentBook.id}
+                            setRerender={setRender}
+                            id={currentBook._id}
                             tittle={currentBook.tittle}
                             author={currentBook.author} 
                             price={currentBook.price}
