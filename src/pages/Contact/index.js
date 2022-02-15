@@ -25,13 +25,18 @@ export function Contact() {
             Camila Beisiegel
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          <i class="fa-solid fa-envelope"></i> danielle_nascimento_@hotmail.com
-            <CardActions>                
-              <Button size="medium"><a href="https://github.com/CPBeisiegel"  style={{ textDecoration: "none", fontSize: "30px", color: "black" }}> <i className="fa-brands fa-github"></i> </a></Button>
-            </CardActions>            
+          <i className="fa-solid fa-envelope"></i> danielle_nascimento_@hotmail.com
+                       
           </Typography>
+          
+          <CardActions>                
+              
+            </CardActions>             
         </CardContent>
+        
       </CardActionArea>
+      <Button size="medium"><a href="https://github.com/CPBeisiegel"  style={{ textDecoration: "none", fontSize: "30px", color: "black" }}> <i className="fa-brands fa-github"></i> </a></Button>
+
     </Card>
 
     <Card sx={{ maxWidth: 345 }}>
@@ -47,13 +52,17 @@ export function Contact() {
             Danielle Nascimento
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          <i class="fa-solid fa-envelope"></i> danielle_nascimento_@hotmail.com            
-            <CardActions>                
-              <Button size="medium"><a href="https://github.com/daniellenasc"  style={{ textDecoration: "none", fontSize: "30px", color: "black" }}> <i className="fa-brands fa-github"></i> </a></Button>
-            </CardActions>
+          <i className="fa-solid fa-envelope"></i> danielle_nascimento_@hotmail.com           
+            
           </Typography>
+          
+          <CardActions>                
+             
+            </CardActions>
         </CardContent>
+       
       </CardActionArea>
+      <Button size="medium"><a href="https://github.com/daniellenasc"  style={{ textDecoration: "none", fontSize: "30px", color: "black" }}> <i className="fa-brands fa-github"></i> </a></Button>
     </Card>
     </div>
     </>  
