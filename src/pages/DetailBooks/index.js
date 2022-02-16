@@ -50,7 +50,7 @@ export function DetailBooks(){
                            <article>Descrição: {bookDetail.description}</article>
 
 
-                           <Button variant="outlined" ><Link to={`/livros`}>Voltar</Link></Button>
+                           <Button variant="outlined" className='btn'><Link to={`/livros`}>Voltar</Link></Button>
         
                       </div>
 
