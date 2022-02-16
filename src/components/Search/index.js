@@ -4,7 +4,7 @@ export function Search(props) {
     return ( 
       <>
       <div className="search_lupa">
-        <i class="fa-solid fa-magnifying-glass"></i>
+        <i className="fa-solid fa-magnifying-glass"></i>
       </div>
       <input
         className="search_input"                
