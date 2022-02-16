@@ -48,14 +48,14 @@ export function ImgMediaCard(props) {
                     {props.price}
                 </Typography>
                 <Typography variant="body2" color="text.secondary">
-               <Link to={`/detalhes/${props.id}`}> <AddIcon /> Detalhes</Link>
+               <Link style={{textDecoration: "none", fontWeight: "600px"}} to={`/detalhes/${props.id}`}> <AddIcon /> Detalhes</Link>
                 </Typography>
                 </CardContent>
                 <CardActions>
-                <Link to={`/edit-cadastro/${props.id}`}>
-                <Button size="small">Edit</Button>
+                <Link style={{textDecoration: "none"}} to={`/edit-cadastro/${props.id}`}>
+                <Button  size="small">Edit</Button>
                 </Link>
-                <Button size="small" type="button" onClick={handleDelete}>Delete</Button>
+                <Button  size="small" type="button" onClick={handleDelete}>Delete</Button>
                 </CardActions>
             </Card>
     </div>  
