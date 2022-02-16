@@ -1,8 +1,10 @@
  import {useState, useEffect} from 'react';
  import axios from 'axios'; 
  import { useParams } from 'react-router-dom';
- import Typography from '@mui/material/Typography';
- import { Box } from '@mui/system';
+ import Button from '@mui/material/Button';
+ import './Detail.css'
+ import {Link} from 'react-router-dom'
+
 
 export function DetailBooks(){
 
@@ -32,23 +34,27 @@ export function DetailBooks(){
                       <img 
                       src={bookDetail.image}
                       alt={bookDetail.title}
+                      className='detailImg'
                       />
         
-                      <div className=''>
+                      <div className='detailBook'>
         
                            <h1>{bookDetail.title}</h1>
         
-                           <h3>{bookDetail.author}</h3>
+                           <p>Autor: {bookDetail.author}</p>
         
                          
-                            <span>{bookDetail.price}</span>
+                            <span>Preço: {bookDetail.price}</span>
                            
         
-                           <article>{bookDetail.description}</article>
+                           <article>Descrição: {bookDetail.description}</article>
 
-                
+
+                           <Button variant="outlined" ><Link to={`/livros`}>Voltar</Link></Button>
         
                       </div>
+
+                            
 
                         
 

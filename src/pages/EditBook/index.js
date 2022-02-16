@@ -20,7 +20,7 @@ export function EditBook(){
     const [form, setForm] = useState({
         title:'',
         author: '',
-        price: null,
+        price: 0,
         description: '',
         image: '',
     });
@@ -41,7 +41,12 @@ export function EditBook(){
 
 
         function handleChange(event) {
-        setForm({ ...form, [event.target.name]: event.target.value });
+            if(event.target.name === "price"){
+                setForm({...form,[event.target.name]: Number(event.target.value) }); 
+                return ;
+            }
+
+        setForm({...form,[event.target.name]: event.target.value });
         console.log(form);
       }
     
@@ -68,7 +73,7 @@ export function EditBook(){
 
 
     return (
-        <div className="form-control">
+        <div className="form-control-edit">
         <form onSubmit={handleSubmit}>
               <FormControl >
                    <FormHelperText id="my-helper-text" style={{marginBottom: "20px"}}>Preencha o nome completo do livro</FormHelperText>
@@ -94,6 +99,7 @@ export function EditBook(){
                         id="price-input"
                         name="price"
                         type="number"
+                        step="3"
                         value={form.price}
                       onChange={handleChange}
                         />
@@ -114,7 +120,7 @@ export function EditBook(){
                         value={form.image}
                         onChange={handleChange}
                         />
-                    <Button type="submit">Editar livro</Button> 
+                    <Button variant="contained" style={{marginTop: "15px"}} type="submit">Editar livro</Button> 
             </FormControl>
 
         </form>

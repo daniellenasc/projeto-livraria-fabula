@@ -33,7 +33,8 @@ export function ImgMediaCard(props) {
                 className="image_card"
                 component="img"
                 alt="book-cover"
-                item xs={2}
+                item="true"
+                xs={2}
                 image={props.image}
                 />
                 <CardContent>
