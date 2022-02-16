@@ -12,7 +12,7 @@ export function Contact() {
   return (
     <> 
     <div className="card_contact"> 
-    <Card sx={{ maxWidth: 345 }}>
+    <Card className="personal_card">
       <CardActionArea>
         <CardMedia
           component="img"
@@ -25,13 +25,10 @@ export function Contact() {
             Camila Beisiegel
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          <i className="fa-solid fa-envelope"></i> camila.beisiegel@gmail.com
-                       
-          </Typography>
-          
-          <CardActions>                
-              
-            </CardActions>             
+          <i className="fa-solid fa-envelope"></i> camila.beisiegel@gmail.com                       
+          </Typography>          
+          <CardActions>             
+          </CardActions>             
         </CardContent>
         
       </CardActionArea>
@@ -39,7 +36,7 @@ export function Contact() {
 
     </Card>
 
-    <Card sx={{ maxWidth: 345 }}>
+    <Card className="personal_card">
       <CardActionArea>
         <CardMedia
           component="img"

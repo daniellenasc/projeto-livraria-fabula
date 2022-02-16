@@ -10,3 +10,8 @@
     justify-content: space-around;
     align-items: center;
 }
+
+.personal_card {
+    width: 350px; 
+    height: auto;   
+}
