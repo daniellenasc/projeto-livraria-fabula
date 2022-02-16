@@ -8,11 +8,10 @@
     margin-right: 0px;
 }
 
-.search{
+.search_bar{    
     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: 50px;
-    width: 30%;
-    margin-left: 600px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    align-content: center;
 }
