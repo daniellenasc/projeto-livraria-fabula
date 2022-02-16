@@ -27,9 +27,12 @@ p{
 
 }
 
-span{
+.price{
     margin: 6px;
-    font-size: 20px
+    font-size: 20px;
+    border: 2px solid red;
+    padding: 3px;
+    font-weight: bold;
 }
 
 article{

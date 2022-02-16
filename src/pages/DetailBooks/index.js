@@ -44,13 +44,13 @@ export function DetailBooks(){
                            <p>Autor: {bookDetail.author}</p>
         
                          
-                            <span>Preço: {bookDetail.price}</span>
+                            <span className='price'>Preço: {bookDetail.price}</span>
                            
         
                            <article>Descrição: {bookDetail.description}</article>
 
 
-                           <Button variant="outlined" ><Link to={`/livros`}>Voltar</Link></Button>
+                           <Button variant="outlined"><Link style={{textDecoration: "none"}} to={`/livros`}>Voltar</Link></Button>
         
                       </div>
 
