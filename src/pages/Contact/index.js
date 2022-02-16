@@ -25,7 +25,7 @@ export function Contact() {
             Camila Beisiegel
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          <i className="fa-solid fa-envelope"></i> danielle_nascimento_@hotmail.com
+          <i className="fa-solid fa-envelope"></i> camila.beisiegel@gmail.com
                        
           </Typography>
           
