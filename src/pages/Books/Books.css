@@ -7,3 +7,12 @@
     margin: 45px;
     margin-right: 0px;
 }
+
+.search{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 50px;
+    width: 30%;
+    margin-left: 600px;
+}
