@@ -45,7 +45,7 @@ export function Books() {
 
     return (
         <>
-        <div>
+        <div className="search_bar">
             {/* Passando a função de filtrar o state principal para o componente SearchBar */}
             {/* Essa função será invocada no evento onKeyUp */}
             <Search filterAPI={filterBooks} />
