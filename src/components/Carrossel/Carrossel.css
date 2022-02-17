@@ -1,0 +1,11 @@
+.carrossel_style{
+    padding: 0 20px;
+
+}
+
+@media screen and (max-width: 600px) {
+    .carrossel_style{
+        padding: 0 5px;  
+        width: 91%; 
+    }
+}

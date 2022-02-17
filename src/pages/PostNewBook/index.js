@@ -50,8 +50,8 @@ export function PostNewBook() {
 
      <div className="form-control" >
         <form onSubmit={handleSubmit}>
-            <FormControl style={{marginBottom: '10px'}} >
-                   <FormHelperText id="my-helper-text" style={{marginBottom: "20px"}}>Preencha o nome completo do livro</FormHelperText>
+            <FormControl className="form_margin_bottom" >
+                   <FormHelperText id="my-helper-text" className="form_margin_bottom">Preencha o nome completo do livro</FormHelperText>
                    <TextField
                         id="title"
                         name="title"
@@ -61,7 +61,7 @@ export function PostNewBook() {
                         onChange={handleChange}
                     
                         />
-                    <FormHelperText id="my-helper-text" style={{marginBottom: "20px"}}>Preencha o nome do autor</FormHelperText>
+                    <FormHelperText id="my-helper-text" className="form_margin_bottom">Preencha o nome do autor</FormHelperText>
                     <TextField
                         id="author"
                         name="author"
@@ -71,7 +71,7 @@ export function PostNewBook() {
                         onChange={handleChange}
                        
                         />
-                    <FormHelperText id="my-helper-text" style={{marginBottom: "20px"}}>Preencha o preço do livro com ponto</FormHelperText>
+                    <FormHelperText id="my-helper-text" className="form_margin_bottom">Preencha o preço do livro com ponto</FormHelperText>
                     <TextField
                         id="price"
                         name="price"
@@ -81,7 +81,7 @@ export function PostNewBook() {
                         onChange={handleChange}                        
                     
                         />
-                    <FormHelperText id="my-helper-text" style={{marginBottom: "20px"}}>Preencha a descrição do livro</FormHelperText>
+                    <FormHelperText id="my-helper-text" className="form_margin_bottom">Preencha a descrição do livro</FormHelperText>
                     <TextField
                         id="description"
                         name="description"
@@ -91,7 +91,7 @@ export function PostNewBook() {
                         onChange={handleChange}
 
                         />
-                    <FormHelperText id="my-helper-text" style={{marginBottom: "20px"}}>Insira a capa do livro</FormHelperText>
+                    <FormHelperText id="my-helper-text" className="form_margin_bottom">Insira a capa do livro</FormHelperText>
                     <TextField
                         id="image"
                         name="image"

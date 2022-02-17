@@ -53,9 +53,9 @@ export function ImgMediaCard(props) {
                 </CardContent>
                 <CardActions>
                 <Link style={{textDecoration: "none"}} to={`/edit-cadastro/${props.id}`}>
-                <Button  size="small">Edit</Button>
+                <Button  size="small">Editar</Button>
                 </Link>
-                <Button  size="small" type="button" onClick={handleDelete}>Delete</Button>
+                <Button  size="small" type="button" onClick={handleDelete}>Deletar</Button>
                 </CardActions>
             </Card>
     </div>  

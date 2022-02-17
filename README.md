@@ -7,15 +7,15 @@ The team developed this site with the purpose to practice the knowledge acquired
 ## About the programming
 
 The project has developed in SPA with the use of React and Material UI. 
-It has a complete CRUD with the consumption o a [API](https://ironrest.herokuapp.com/livrariaFabula) created by the team especialy for the project. 
+It has a complete CRUD with the consumption of a [API](https://ironrest.herokuapp.com/livrariaFabula) created by the team especially for the project. 
 
-Its features !  
+Its features: 
 
 -   Search books
 -   Add and Edit books
 -   Delete books
 
-## Link of the project deploy on netfly
+## Link of the project deploy on Netlify
 
 https://livrariafabula.netlify.app/
 
@@ -23,9 +23,8 @@ https://livrariafabula.netlify.app/
 
 https://slides.com/d/NB9VHQs/live
 
-## About the developement team 
-We are web developers trained by Ironhack and this is are second project.  
+## About the development team 
+We are web developers trained by Ironhack and this is our second project.  
 [Camila Beisiegel](https://github.com/CPBeisiegel)
-
 
 [Danielle Nascimento](https://github.com/daniellenasc)

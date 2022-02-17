@@ -1,4 +1,5 @@
 import { Carousel } from 'react-carousel-minimal';
+import "./Carrossel.css"
 
 
 export function Carrossel(){
@@ -40,10 +41,8 @@ export function Carrossel(){
           <div style={{ textAlign: "center", marginTop: "150px" }}>
             <h1>Seja bem-vindo a Livraria Fábula!!</h1>
             <p>Venha se perder no mundo da leitura com os clássicos da literatura!!</p>
-            <div style={{
-              padding: "0 20px"
-            }}>
-              <Carousel
+            <div className="carrossel_style">
+              <Carousel 
                 data={data}
                 time={2000}
                 width="900px"
@@ -63,7 +62,7 @@ export function Carrossel(){
                 thumbnailWidth="100px"
                 style={{
                   textAlign: "center",
-                  maxWidth: "850px",
+                  maxWidth: "650px",
                   maxHeight: "500px",
                   margin: "40px auto",
                 }}
