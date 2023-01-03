@@ -62,7 +62,7 @@ export function Books() {
                 key={currentBook._id}
                 setRerender={setRender}
                 id={currentBook._id}
-                tittle={currentBook.tittle}
+                title={currentBook.title}
                 author={currentBook.author}
                 price={currentBook.price}
                 image={currentBook.image}

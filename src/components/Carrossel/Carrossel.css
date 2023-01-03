@@ -1,11 +1,10 @@
-.carrossel_style{
-    padding: 0 20px;
-
+.carrossel_style {
+  padding: 0;
 }
 
 @media screen and (max-width: 600px) {
-    .carrossel_style{
-        padding: 0 5px;  
-        width: 91%; 
-    }
+  .carrossel_style {
+    padding: 0 5px;
+    width: 91%;
+  }
 }
