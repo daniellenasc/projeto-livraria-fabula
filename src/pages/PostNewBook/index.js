@@ -77,7 +77,6 @@ export function PostNewBook() {
           <TextField
             id="price"
             name="price"
-            label="Preço"
             type="number"
             value={form.price}
             onChange={handleChange}
@@ -94,7 +93,7 @@ export function PostNewBook() {
             onChange={handleChange}
           />
           <FormHelperText id="my-helper-text" className="form_margin_bottom">
-            Insira a capa do livro
+            Insira o link da capa do livro
           </FormHelperText>
           <TextField
             id="image"

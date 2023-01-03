@@ -39,7 +39,7 @@ export function ImgMediaCard(props) {
             {props.author}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            {props.price}
+            $ {props.price}
           </Typography>
           <Typography variant="body2" color="text.secondary">
             <Link
